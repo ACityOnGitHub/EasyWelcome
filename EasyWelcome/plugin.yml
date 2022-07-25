@@ -1,0 +1,10 @@
+main: icnetwork.ezwelcome.EasyWelcome
+version: 1.1.0
+name: EasyWelcome
+depend: [TitleAPI]
+
+commands:
+  ezw:
+    description: EasyWelcome Main Command
+  lobby:
+    description: Go to the Server's lobby

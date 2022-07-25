@@ -1,0 +1,30 @@
+###########
+# Built in plugin Placeholder:
+# %player% - Returns you the Player's Name
+# More Placeholders Soon...
+###########
+Config:
+  welcome-message-enabled: true
+  lobby-message-enabled: true
+  setlobby-enabled: true
+  no-lobby-enabled: true
+  reload-message-enabled: true
+  noperms-message-enabled: true
+  title-enabled: true
+  title: "&eWelcome &b%player% &eto the Server!"
+  subtitle: "&dEnjoy Our Server!"
+  fadein: 20
+  stay: 40
+  fadeout: 20
+Messages:
+  welcome-message:
+  - '&m============================'
+  - '&eWelcome To The Server &d%player%&e!' 
+  - '&9Discord&r: &nhttps://discord.gg/mydiscord'
+  - '&eWebpage&r: &nhttps://mywebpage.com'
+  - '&m============================'
+  lobby-message: "&e[&6EzW&9] &b%player%&f, You Have been Teleported to The Lobby"
+  setlobby-message: "&e[&6EzW&9] &aThe Lobby Location Have been Set"
+  no-lobby-enabled-message: "&e[&6EzW&9] &cThe Lobby Location is Missing"
+  reload-message: "&e[&6EzW&9] &aThe Plugin Configuration Have Been Reloaded"
+  noperms-message: "&e[&6EzW&9] &c%player% You Haven't The Enough Permissions for That!"
